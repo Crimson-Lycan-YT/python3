@@ -29,7 +29,7 @@ def initNewGamePlayer(playerInfo):
 
 def initNewGamePet(petInfo):
     petInfo["lifeStage"] = "Egg"
-    return playerInfo
+    return petInfo
 
 # Functions designed to load a game from file.
 def loadGamePlayer(playerInfo):
